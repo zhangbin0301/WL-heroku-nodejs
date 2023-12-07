@@ -1,0 +1,30 @@
+{
+  "name": "nodejs1.0",
+  "description": "Deploy nodejs to heroku",
+  "keywords": ["nodejs"],
+  "env": {
+    "NEZHA_SERVER": {
+       "description": "NEZHA_SERVER",
+       "value": ""
+     },
+    "NEZHA_KEY": {
+       "description": "NEZHA_SERVER",
+       "value": ""
+     },
+   "SUB_NAME": {
+       "description": "SUB_NAME",
+       "value": ""
+     },
+    "SUB_URL": {
+       "description": "SUB_URL",
+       "value": ""
+     },
+    "PSWD": {
+       "description": "启动密码",
+       "value": ""
+     }
+  },
+  "stack": "container",
+  "website": "https://github.com/xiaokaixuan/v2ray-heroku",
+  "repository": "https://github.com/xiaokaixuan/v2ray-heroku"
+ }
